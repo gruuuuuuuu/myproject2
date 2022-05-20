@@ -1,14 +1,16 @@
 package ticket;
 
 import java.util.Scanner;
-/*台北  台中  高雄
-  100  200  400
-    500  500
+
+/* 台北    台中    高雄
+   100     200    400
+       500     600
+   <=======1100======>
  */
+
 public class Tester {
     public static void main(String[] args) {
         //Constructor, constant value
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("Your start station?(1: Taipei, 2: Taichung, 3: Kaohsiung)");
         int choice = Integer.parseInt(scanner.next());
@@ -53,3 +55,4 @@ public class Tester {
         ticket.print();
     }
 }
+
