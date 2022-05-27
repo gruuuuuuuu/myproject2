@@ -24,8 +24,9 @@ public class MyWin {
             }
         });
 
-//有名類別        MyActionListener listener = new MyActionListener();
-//              button.addActionListener(listener);
+        //有名類別
+//        MyActionListener listener = new MyActionListener();
+//        button.addActionListener(listener);
 
         // Layout
         //frame.setLayout(new BorderLayout());
