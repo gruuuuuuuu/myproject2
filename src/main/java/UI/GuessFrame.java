@@ -29,7 +29,7 @@ public class GuessFrame extends JFrame {
 //        若下面這行沒一道上面，則上面無法打出label
 //        JLabel label = new JLabel("Zzzz...");
         setLayout(new FlowLayout());
-        add(number)
+        add(number);
         add(button);
         add(label);
         setVisible(true);
