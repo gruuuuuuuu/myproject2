@@ -7,8 +7,8 @@ import java.awt.event.ActionListener;
 
 public class GuessFrame extends JFrame {
     //Fields
-    JButton button= new JButton("HI");
-    JLabel label = new JLabel("Zzzz...");
+    JButton button= new JButton("OK !  GUESS ?");
+    JLabel label = new JLabel("secret number is...");
     JTextField number = new JTextField(8);
     //Constructors
     //super 呼叫副類別的程式碼
