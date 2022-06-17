@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 public class MyWin {
     public static void main(String[] args) {
         //swing => 負責java GUI, JavaFX
-        //eXtension => 後來擴充出來的
+        //extension => 後來擴充出來的
         JFrame frame = new JFrame();
         frame.setSize(700,300);
         frame.setLocation(400,300);

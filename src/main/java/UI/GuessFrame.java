@@ -31,7 +31,7 @@ public class GuessFrame extends JFrame {
                 }else if(num < secret){
                     label.setText("Bigger");
                 }else{
-                    label.setText("Bingo, the secret number is" + secret);
+                    label.setText("Bingo, the secret number is " + secret);
                 }
               //  System.out.println("Hello!");
 //                label.setText("Hello!");
@@ -52,5 +52,6 @@ public class GuessFrame extends JFrame {
         GuessFrame guessFrame = new GuessFrame();
 //        guessFrame.setSize(600,500);
 //        guessFrame.setVisible(true);
+    
     }
 }

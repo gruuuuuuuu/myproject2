@@ -19,6 +19,7 @@ public class morbutton {
         frame.add(new JButton("Awesome"));
         frame.add(new JButton("Chubby"));
         frame.setVisible(true);
-        System.out.println("END！");
+        System.out.println
+                ("END！");
     }
 }
